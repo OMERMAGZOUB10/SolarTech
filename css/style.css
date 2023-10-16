@@ -284,7 +284,10 @@ section{
     .card{
         width: 100%;
         hegit: 50%;
-        font-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
 }
