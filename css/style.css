@@ -283,13 +283,14 @@ section{
 @media (max-width:768px){
     .card{
         width: 100%;
+        hegit: 100%;
     }
 }
 .card i{
     margin-top: 20px;
 }
 .card p{
-    font-size:13px;
+    font-size:14px;
     padding: 10px;
     margin-top: 20px;
     /* line-height: 1.5; */
