@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>SolarTech</title>
+</head>
+<body>
+<!-- Header Section Starts  -->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="image/Logo.png" alt="">
+        </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#services">services</a>
+            <a href="#solar-system">solar energy systems</a>
+            <a href="#products">products</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-search " id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="image/A8.png" alt="">
+                <div class="content">
+                    <h3>solar searchlight</h3>
+                    <div class="price">$10</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="image/A5.png" alt="">
+                <div class="content">
+                    <h3>battery 120Ah</h3>
+                    <div class="price">$35.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="image/A1.png" alt="">
+                <div class="content">
+                    <h3>charging regulator</h3>
+                    <div class="price">$15.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="image/A4.png" alt="">
+                <div class="content">
+                    <h3>inverter 2000w</head></h3>
+                    <div class="price">25 $</div>
+                </div>
+            </div>
+            <a href="#" class="btn">checkout now</a>
+        </div>
+    </header>
+<!-- Header Section Ends -->
+<!-- Home Section Starts  -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>transition to a future with solar systems</h3>
+            <p>experience sustainability powered by <br>the sun.</p>
+            <a href="#" class="btn">get yours now</a>
+    </div>
+</section>
+<!-- Home Section Ends -->
+<!-- About Section Starts  -->
+    <section class="about" id="about">
+        <h2 class="main-title">about</h2>
+    <div class="container">
+        <div class="card" id="one">
+            <i class="fas fa-info-circle fa-fw fa-4x"></i>
+            <p>SolarTech is a leading store specializing in the sale of solar energy systems and related products. We strive to provide innovative and cost-effective solutions for customers who want to benefit from the advantages of solar energy.</p>
+            </div>
+        <div class="card" id="tow">
+            <i class="fas fa-check-circle fa-fw fa-4x"></i>
+            <p>Our mission at SolarTech is to empower customers to generate clean and sustainable energy while reducing their reliance on traditional and polluting energy sources. We offer a wide range of high-quality products, including solar panels, energy storage systems, power inverters, control and monitoring systems, and other solar energy accessories.</p>
+        </div>
+        <div class="card" id="three">
+            <i class="fas fa-user fa-fw fa-4x"></i>
+            <p>Our professional and specialized team works to provide comprehensive consulting services to customers, assisting them in choosing the ideal solution and designing a customized system that meets their individual needs. We ensure seamless installation, energy efficiency, and excellent after-sales support to ensure complete customer satisfaction.</p>
+        </div>
+        <div class="card" id="four">
+            <i class="fas fa-solar-panel fa-fw fa-4x"></i>
+            <p>With our diverse range of high-performance products and exceptional services, our customers can rely on SolarTech as a strong partner in achieving their environmental sustainability goals and achieving long-term energy cost savings.</p>
+        </div>
+    </div>
+    </section>
+<!-- About Section Ends  -->
+<!-- Start Services Section -->
+    <section class="services" id="services">
+        <h2 class="main-title">services</h2>
+        <div class="images-container">
+            <div class="image-card">
+                <img src="image/E.webp" alt="" />
+                <span class="image-text">sale of solar energy systems</span>
+            </div>
+            <div class="image-card">
+                <img src="image/D.webp" alt="" />
+                <span class="image-text">installation of solar energy systems</span>
+            </div>
+            <div class="image-card">
+                <img src="image/A.jpeg" alt="" />
+                <span class="image-text">maintenance of solar energy systems</span>
+            </div>
+            <div class="image-card">
+                <img src="image/B.jpeg" alt="" />
+                <span class="image-text"> solar energy systems replacement</span>
+            </div>
+        </div>
+    </section>
+    <!-- End Services Section -->
+    <!--Start Popup-->
+        <div id="popup" class="popup">
+            <h2>You have to log in first</h2>
+            <a href="sign.html">log in</a>
+            <span class="close" onclick="hidePopup()">&times;</span>
+        </div>
+    <!--End Popup-->
+    <!-- Start Solar Energy Section-->
+    <section class="solar-systems" id="solar-system">
+        <h2 class="main-title">solar energy systems</h2>
+        <div class="solar-container">
+            <div class="solar-card">
+                <img src="image/solar.jpeg" alt="" />
+                <div class="info">
+                    <div class="title">
+                        <h1>3200W / 48V system</h1>
+                        <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(450)</span>
+                    </div>
+                    </div>
+                    <div class="price"><h2>1000$<span>1200$</span></h2></div>
+                    <h2>operational capability :</h2>
+                    <div class="devices">
+                        <div class="device" id="o-ne">2 refrigerators</div>
+                        <div class="device" id="t-ow">a belnder</div>
+                        <div class="device" id="th-ree">8 fans</div>
+                        <div class="device" id="fo-ur">3 screens</div>
+                        <div class="device" id="fi-ve">a water cooler</div>
+                        <div class="device" id="s-ex">3water conditioners</div>
+                        <div class="device" id="se-ven">20 bulbs</div>
+                    </div>
+                    <a href=""><h3> see all details</h3></a>
+                </div>
+                <button class="button" onclick="showPopup()">buy now</button>
+            </div>
+            <div class="solar-card">
+                <img src="image/solar.jpeg" alt="" />
+                <div class="info">
+                    <div class="title">
+                        <h1>3200W / 48V system</h1>
+                        <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(450)</span>
+                    </div>
+                    </div>
+                    <div class="price"><h2>1000$<span>1200$</span></h2></div>
+                    <h2>operational capability :</h2>
+                    <div class="devices">
+                        <div class="device" id="o-ne">2 refrigerators</div>
+                        <div class="device" id="t-ow">a belnder</div>
+                        <div class="device" id="th-ree">8 fans</div>
+                        <div class="device" id="fo-ur">3 screens</div>
+                        <div class="device" id="fi-ve">a water cooler</div>
+                        <div class="device" id="s-ex">3water conditioners</div>
+                        <div class="device" id="se-ven">20 bulbs</div>
+                    </div>
+                    <a href=""><h3> see all details</h3></a>
+                </div>
+                <button class="button" onclick="showPopup()">buy now</button>
+            </div>
+            <div class="solar-card">
+                <img src="image/solar.jpeg" alt="" />
+                <div class="info">
+                    <div class="title">
+                        <h1>3200W / 48V system</h1>
+                        <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(450)</span>
+                    </div>
+                    </div>
+                    <div class="price"><h2>1000$<span>1200$</span></h2></div>
+                    <h2>operational capability :</h2>
+                    <div class="devices">
+                        <div class="device" id="o-ne">2 refrigerators</div>
+                        <div class="device" id="t-ow">a belnder</div>
+                        <div class="device" id="th-ree">8 fans</div>
+                        <div class="device" id="fo-ur">3 screens</div>
+                        <div class="device" id="fi-ve">a water cooler</div>
+                        <div class="device" id="s-ex">3water conditioners</div>
+                        <div class="device" id="se-ven">20 bulbs</div>
+                    </div>
+                    <a href=""><h3> see all details</h3></a>
+                </div>
+                <button class="button" onclick="showPopup()">buy now</button>
+            </div>
+            <div class="solar-card">
+                <img src="image/solar.jpeg" alt="" />
+                <div class="info">
+                    <div class="title">
+                        <h1>3200W / 48V system</h1>
+                        <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(450)</span>
+                    </div>
+                    </div>
+                    <div class="price"><h2>1000$<span>1200$</span></h2></div>
+                    <h2>operational capability :</h2>
+                    <div class="devices">
+                        <div class="device" id="o-ne">2 refrigerators</div>
+                        <div class="device" id="t-ow">a belnder</div>
+                        <div class="device" id="th-ree">8 fans</div>
+                        <div class="device" id="fo-ur">3 screens</div>
+                        <div class="device" id="fi-ve">a water cooler</div>
+                        <div class="device" id="s-ex">3water conditioners</div>
+                        <div class="device" id="se-ven">20 bulbs</div>
+                    </div>
+                    <a href=""><h3> see all details</h3></a>
+                </div>
+                <button class="button" onclick="showPopup()">buy now</button>
+            </div>
+        </div>
+    </section>
+    <!-- End solar energy section-->
+        <!-- Start Solar Energy Section-->
+        <section class="products" id="products">
+            <h2 class="main-title">solar energy systems</h2>
+            <div class="products-container">
+                <div class="product-card">
+                    <img src="image/A1.png" alt="" />
+                    <div class="info">
+                            <h1> charging regulator 12/24</h1>
+                            <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(450)</span>
+                        </div>
+                        <div class="price"><h2>1000$<span>1200$</span></h2></div>
+                    </div>
+                    <button class="button" onclick="showPopup()">buy now</button>
+                </div>
+                <div class="product-card">
+                    <img src="image/A2.png" alt="" />
+                    <div class="info">
+                            <h1>1000W solar inverter</h1>
+                            <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(450)</span>
+                        </div>
+                        <div class="price"><h2>1000$<span>1200$</span></h2></div>
+                    </div>
+                    <button class="button" onclick="showPopup()">buy now</button>
+                </div>
+                <div class="product-card">
+                    <img src="image/A3.png" alt="" />
+                    <div class="info">
+                            <h1>2k solar inverter</h1>
+                            <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(450)</span>
+                        </div>
+                        <div class="price"><h2>1000$<span>1200$</span></h2></div>
+                    </div>
+                    <button class="button" onclick="showPopup()">buy now</button>
+                </div>
+                <div class="product-card">
+                    <img src="image/A4.png" alt="" />
+                    <div class="info">
+                            <h1>3000W solar inverter</h1>
+                            <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(450)</span>
+                        </div>
+                        <div class="price"><h2>1000$<span>1200$</span></h2></div>
+                    </div>
+                    <button class="button" onclick="showPopup()">buy now</button>
+                </div>
+                <div class="product-card">
+                    <img src="image/A5.png" alt="" />
+                    <div class="info">
+                            <h1>120Ah battery</h1>
+                            <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(450)</span>
+                        </div>
+                        <div class="price"><h2>1000$<span>1200$</span></h2></div>
+                    </div>
+                    <button class="button" onclick="showPopup()">buy now</button>
+                </div>
+                <div class="product-card">
+                    <img src="image/A6.png" alt="" />
+                    <div class="info">
+                            <h1>solar lighting charger</h1>
+                            <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(450)</span>
+                        </div>
+                        <div class="price"><h2>1000$<span>1200$</span></h2></div>
+                    </div>
+                    <button class="button" onclick="showPopup()">buy now</button>
+                </div>
+                <div class="product-card">
+                    <img src="image/A7.png" alt="" />
+                    <div class="info">
+                            <h1>solar searchlight 100W</h1>
+                            <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(450)</span>
+                        </div>
+                        <div class="price"><h2>1000$<span>1200$</span></h2></div>
+                    </div>
+                    <button class="button" onclick="showPopup()">buy now</button>
+                </div>
+                <div class="product-card">
+                    <img src="image/A8.png" alt="" />
+                    <div class="info">
+                            <h1>solar searchlight 120W</h1>
+                            <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(450)</span>
+                        </div>
+                        <div class="price"><h2>1000$<span>1200$</span></h2></div>
+                    </div>
+                    <button class="button" onclick="showPopup()">buy now</button>
+                </div>
+                
+            </div>
+        </section>
+        <!-- End Solar Energy Section-->
+    <!-- Staer Contact Section-->
+        <section class="contact" id="contact">
+                <h2 class="main-title">contact</h2>
+                <div class="contact-container">
+                    <img src="image/Get in touch-amico.svg" width="500px" class="image">
+                    <form action="">
+                        <div class="inputBox">
+                            <span class="fas fa-user"></span>
+                            <input type="text" placeholder="name">
+                        </div>
+                        <div class="inputBox">
+                            <span class="fas fa-envelope"></span>
+                            <input type="email" placeholder="email">
+                        </div>
+                        <div class="inputBox">
+                            <span class="fas fa-message"></span>
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                        <div class="submit"><input type="submit" value="contact now" class="btn"></div>
+                    </form>
+                </div>
+                </div>
+            </section>
+            <!-- End Contact Section-->
+            <!-- Start Footer -->
+            <section class="footer">
+            <div class="one">
+                <div class="column">
+                    <h2><span>solar</span> tech</h2>
+                    <li><i class="fas fa-phone fa-fw"></i><span>hotline:1212</span></li>
+                    <li><i class="fas fa-phone fa-fw"></i><span>+249123456789</span></li>
+                    <li><i class="fas fa-envelope fa-fw"></i><span>solartech@gmail</span></li>
+                    <li><i class="fas fa-location-dot fa-fw"></i><span>khartoum sudan</span></li>
+            </div>
+            <div class="column">
+                    <h2>account</h2>
+                    <a href="#">twitter</a>
+                    <a href="#">telegram</a>
+                    <a href="#">facebook</a>
+                    <a href="#">instagram</a>
+            </div>
+            <div class="column">
+                <h2>information</h2>
+                <a href="#">events</a>
+                <a href="#">custom </a>
+                <a href="#">contacts</a>
+                <a href="#">F.A.Q.'s</a>
+                </div> 
+            <div class="column">
+                    <h2>payment & shipping</h2>
+                    <a href="#">terms of use</a>
+                    <a href="#">shipping guide</a>
+                    <a href="#">payment nethods</a>
+                    <a href="#">locations we ship to</a>
+            </div> 
+            </div>
+            <div class="tow">
+            <div class="created">
+                created by : <span>Omer Monammed </span>
+            </div>
+            <div class="links">
+                <a href=""><i class="fa-brands fa-whatsapp fa-3x fa-fw"></i></a>
+                <a href=""><i class="fa-brands fa-facebook fa-3x fa-fw"></i></a>
+                <a href=""><i class="fa-brands fa-github fa-3x fa-fw"></i></a>
+            </div>
+            </div>
+        </section>
+            <!-- End Fotter -->
+        <script src="js/main.js"></script>
+</body>
+</html>
